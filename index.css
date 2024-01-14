@@ -302,3 +302,14 @@ main {
     height: 60px;
     place-self: center;
 }
+
+/* UNIFIED-PLATFORM */
+
+.unified-platform-section .primary-button {
+    background-color: var(--purple-1);
+    margin: var(--spacing-md) 0;
+}
+
+.unified-platform-section .primary-button:hover {
+    background-color: var(--primary-accent);
+}
