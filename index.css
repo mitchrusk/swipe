@@ -61,6 +61,7 @@ body {
 
 main {
   width: 100%;
+  margin: var(--spacing-xl) 0 0 0;
 }
 
 h1 {
@@ -291,10 +292,6 @@ p {
   background: rgba(250, 250, 250, 250, 0.5);
 }
 /* HERO STYLES */
-main {
-  margin: var(--spacing-xl) 0;
-}
-
 .hero {
   width: 100%;
   display: flex;
