@@ -609,3 +609,7 @@ main {
 }
 
 /* GETTING STARTED SECTION */
+.getting-started-section {
+  display: flex;
+  justify-content: center;
+}
