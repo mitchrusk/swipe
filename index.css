@@ -266,6 +266,7 @@ p {
   width: 100%;
   max-width: var(--standard-width);
   padding: 0 var(--spacing-md);
+  margin: 0 0 var(--spacing-xl) 0;
 }
 
 .menu {
@@ -292,6 +293,19 @@ p {
 .navbar-button:hover {
   background: rgba(250, 250, 250, 250, 0.5);
 }
+/* ANIMATED GRADIENT */
+
+#gradient-canvas {
+  background-color: purple;
+  width: 200%;
+  height: 970px;
+  rotate: -10deg;
+  position: absolute;
+  top: -600px;
+  left: -50%;
+  z-index: -1;
+}
+
 /* HERO STYLES */
 .hero {
   width: 100%;
