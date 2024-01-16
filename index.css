@@ -416,6 +416,7 @@ p {
   /* background-color: var(--primary-accent); */
   position: relative;
   padding: calc(var(--spacing-xl) * 3) 0;
+  z-index: 1;
 }
 
 .integrations-section::before {
@@ -469,6 +470,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: calc(var(--spacing-xl) * 3) 0;
 }
 
 .why-swipe-section .card-container {
