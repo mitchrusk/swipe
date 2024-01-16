@@ -34,6 +34,7 @@
   --primary-button-hover: #6d7aa8;
   --bg-white: #fff;
   --bg-light: #f7f9fc;
+  --standard-border-radius: 20px;
 
   --standard-box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
   --primary-gradient: linear-gradient(
@@ -388,24 +389,26 @@ p {
   grid-area: card;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
+  border-radius: var(--standard-border-radius);
 }
 
 #slack-invoice {
   grid-area: slack;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
+  border-radius: var(--standard-border-radius);
 }
 
 #phone {
   grid-area: phone;
   width: 100%;
-  box-shadow: var(--standard-box-shadow);
 }
 
 #dash {
   grid-area: dash;
   width: 100%;
   box-shadow: var(--standard-box-shadow);
+  border-radius: var(--standard-border-radius);
 }
 
 /* INTEGRATIONS SECTION */
