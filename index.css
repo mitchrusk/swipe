@@ -491,7 +491,7 @@ p {
 
 /* GLOBAL SECTION */
 .global-section {
-  background-color: var(--primary-accent);
+  /* background-color: var(--primary-accent); */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -500,6 +500,17 @@ p {
   padding: calc(var(--spacing-xl) * 3) 0;
 }
 
+.global-section::before {
+  content: "";
+  width: 100%;
+  height: 1200px;
+  background-color: var(--primary-accent);
+  position: absolute;
+  left: 0;
+  top: -32px;
+  transform: skewY(-10deg);
+  z-index: -1;
+}
 .global-section a {
   color: var(--blue-1);
 }
