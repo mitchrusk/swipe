@@ -296,7 +296,6 @@ p {
 /* ANIMATED GRADIENT */
 
 #gradient-canvas {
-  background-color: purple;
   width: 200%;
   height: 970px;
   rotate: -10deg;
@@ -304,6 +303,10 @@ p {
   top: -600px;
   left: -50%;
   z-index: -1;
+  --gradient-color-1: #ef008f;
+  --gradient-color-2: #6ec3f4;
+  --gradient-color-3: #7038ff;
+  --gradient-color-4: #ffba27;
 }
 
 /* HERO STYLES */
