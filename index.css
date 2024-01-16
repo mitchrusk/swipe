@@ -765,3 +765,22 @@ p {
   font-size: var(--h6-size);
   font-weight: 700;
 }
+
+/* TABLET SIZE */
+@media only screen and (max-width:768px) {
+body {
+  background-color: purple;
+}
+}
+
+
+
+
+
+
+/* MOBILE SIZE */
+@media only screen and (max-width:550px) {
+body {
+  background-color: teal;
+}
+}
