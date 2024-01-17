@@ -802,6 +802,15 @@ p {
   .unified-platform-section h2 {
     width: 100%;
   }
+
+  /* INTEGRATIONS SECTION */
+.integrations-section .card-container {
+  flex-direction: column;
+}
+
+.integrations-section .card-container .card {
+  width: 100%;
+}
 }
 
 
@@ -828,6 +837,12 @@ p {
   }
 
   /* UNIFIED PLATFORM */
+
+
+   /* INTEGRATIONS SECTION */
+   .integrations-section .col-right {
+    display: none;
+   }
 }
 
 html, body {
