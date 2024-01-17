@@ -779,8 +779,8 @@ p {
 /* CUSTOM BREAKPOINTS */
 @media only screen and (max-width: 1144px) {
   :root {
-    --h1-size: 80px;
-    --h1-height: 85px;
+    --h1-size: 90px;
+    --h1-height: 95px;
   }
 
   .section-container {
@@ -800,6 +800,11 @@ p {
     height: 550px;
     transform: translatey(-60px);
   }
+
+   /* PARTNERS SECTION */
+   .partners-grid {
+    margin: 0 0 var(--spacing-xl) 0;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -808,6 +813,10 @@ p {
     --h1-height: 75px;
   }
   /* HERO SECTION */
+  #gradient-canvas {
+    height: 900px;
+  }
+
   .hero-phone {
     transform: translateY(-80px);
   }
@@ -866,6 +875,14 @@ p {
     margin: 1px 0;
   }
   /* HERO SECTION*/
+  main {
+    margin: 0;
+  }
+
+  #gradient-canvas {
+    height: 830px;
+  }
+
   .hero .two-column {
     align-items: center;
   }
@@ -881,6 +898,11 @@ p {
   .hero .hero-phone {
     height: 450px;
     transform: translateX(32px);
+  }
+
+  /* PARTNERS SECTION */
+  .partners-grid {
+    margin: -20px 0 var(--spacing-md) 0;
   }
 
   /* UNIFIED PLATFORM SECTION*/
@@ -966,7 +988,7 @@ p {
 
   /* HERO SECTION*/
   #gradient-canvas {
-    height: 830px;
+    height: 800px;
   }
 
   main {
@@ -977,6 +999,10 @@ p {
     display: none;
   }
 
+  /* PARTNERS SECTION */
+  .partners-section {
+    margin: var(--spacing-xl) 0 0 0;
+  }
   .partners-grid {
     grid-template-columns: 1fr 1fr;
   }
