@@ -775,6 +775,19 @@ p {
 }
 
 
+@media only screen and (max-width: 850px) {
+  .partners-grid img {
+    width: 100%;
+    height: auto;
+  }
+  .integrations-section .col-left {
+    width: 60%;
+  }
+  .integrations-section .col-right {
+    width: 40%;
+  }
+}
+
 
 /* TABLET SIZE */
 @media only screen and (max-width: 768px) {
@@ -783,12 +796,6 @@ p {
     --h1-height: 72px;
     --h3-size: 34px;
   }
-
-.partners-grid img {
-    width: 100%;
-    height: auto;
-  }
-
 
 
   /* UNIFIED PLATFORM */
