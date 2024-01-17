@@ -833,6 +833,9 @@ p {
   width: 50%;
   margin: var(--spacing-md) 0;
 }
+
+/* EVENTS SECTION */
+
 }
 
 
@@ -882,6 +885,25 @@ p {
   #globe {
     opacity: 10%;
   }
+
+  /* EVENTS SECTION */
+  .virtual-events-section .swipe-sessions-card {
+    margin: var(--spacing-lg) 0;
+    width: 100%;
+  }
+  
+  .virtual-events-section .swipe-sessions-card .secondary-text {
+    width: 100%;
+  }
+  
+  .virtual-events-section .swipe-sessions-card .card-top {
+    height: 40%;
+  }
+  
+  #sessions-logo {
+    width: 300px;
+  }
+
 }
 
 html, body {
