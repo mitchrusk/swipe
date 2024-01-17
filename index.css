@@ -836,6 +836,20 @@ p {
 
 /* EVENTS SECTION */
 
+/* GETTING STARTED SECTION */
+.getting-started-section .two-column {
+  align-items: center;
+}
+
+.getting-started-section .col-right {
+  flex-wrap: wrap;
+}
+
+.getting-started-section .col-right .card {
+  width: 100%;
+  margin: calc(var(--spacing-md) * 1.2)  0;
+}
+
 }
 
 
@@ -902,6 +916,11 @@ p {
   
   #sessions-logo {
     width: 300px;
+  }
+
+  /* GETTING STARTED SECTION */
+  .getting-started-section .col-right .icon {
+    height: 35px;
   }
 
 }
