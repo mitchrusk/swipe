@@ -881,6 +881,10 @@ p {
   }
 
   /* INTEGRATIONS SECTION */
+  /* .integrations-section::before {
+    height: 1000px;
+  } */
+
   .integrations-section .card-container {
     flex-direction: column;
   }
@@ -890,6 +894,10 @@ p {
   }
 
   /* WHY SWIPE */
+  .why-swipe-section {
+    padding: var(--spacing-md) 0 var(--spacing-xl) 0;
+  }
+
   .why-swipe-section .card-container {
     flex-wrap: wrap;
   }
@@ -1075,6 +1083,17 @@ p {
   .footer .icon-link img {
     width: 18px;
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  :root {
+    --h1-size: 54px;
+    --h1-height: 60px;
+    --h3-size: 32px;
+    --h6-size: 20px;
+    --p-size: 17px;
+    --p-height: 25px
   }
 }
 
